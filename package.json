@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hristo2612/web-link-crawler.git"
