@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hristo2612/web-link-crawler.git"
@@ -16,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/hristo2612/web-link-crawler/issues"
   },
-  "homepage": "https://github.com/hristo2612/web-link-crawler#readme"
+  "homepage": "https://github.com/hristo2612/web-link-crawler#readme",
+  "dependencies": {
+    "randomstring": "^1.1.5",
+    "website-scraper": "^3.3.7"
+  }
 }
