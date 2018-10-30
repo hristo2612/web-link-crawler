@@ -1,0 +1,20 @@
+{
+  "name": "web-link-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hristo2612/web-link-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hristo2612/web-link-crawler/issues"
+  },
+  "homepage": "https://github.com/hristo2612/web-link-crawler#readme"
+}
