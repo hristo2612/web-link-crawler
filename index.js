@@ -13,7 +13,7 @@ scrape(options).then((result) => {
     var regex = /(https?:\/\/[^\s]+)/g;
     result.forEach((page) => {
         var links = page.text.match(regex);
-        console.log('Links for: ' page.url);
+        console.log('Links for: ', page.url);
         console.log(links || 'Sorry, no links found :(');
     });
 }).catch((err) => {
