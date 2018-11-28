@@ -10,7 +10,7 @@ var options = {
 };
  
 scrape(options).then((result) => {
-    var regex = /(https?:\/\/[^\s]+)/g;
+    var regex = /(https?:\/\/[^\s"<]+)/g;
     result.forEach((page) => {
         var links = page.text.match(regex);
         console.log('Links for: ', page.url);
